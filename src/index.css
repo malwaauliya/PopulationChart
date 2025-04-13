@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-xs: 30rem;
+  --color-blueme: #a1c0ce;
+  --color-blueme-100: #a1c0ce30;
+  --color-blueme-200: #a1c0ce4d;
+  --color-blueme-300: #a1c0ce66;
+  --color-blueme-400: #a1c0ce7d;
+  --color-blueme-600: #a1c0ce9c;
+  --color-blueme-800: #a1c0ced4;
+  --color-greenme: #a9c7be;
+}
+
+@layer components {
+  h1 {
+    font-size: var(--text-3xl);
+    line-height: var(--text-3xl--line-height);
+  }
+
+  h2 {
+    font-size: var(--text-2xl);
+    line-height: var(--text-2xl--line-height);
+  }
+
+  h3 {
+    font-size: var(--text-xl);
+    line-height: var(--text-xl--line-height);
+  }
+
+  h4 {
+    font-size: var(--text-lg);
+    line-height: var(--text-lg--line-height);
+  }
+
+  h5 {
+    font-size: var(--text-base);
+    line-height: var(--text-base--line-height);
+  }
+
+  .card {
+    background-color: var(--color-white);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+  }
+}
+
+:root {
+  font-family: Lexend, sans-serif !important;
+  font-size: 14px;
+}
+
+.roboto {
+  font-family: Roboto, sans-serif !important;
+}
+
+button {
+  cursor: pointer;
+}
